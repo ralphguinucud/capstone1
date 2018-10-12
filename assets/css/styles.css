@@ -1,0 +1,436 @@
+
+*
+{
+	color: white;
+}
+
+body,html
+{
+	height: 100%;
+	margin: 0;
+	line-height: 180%;
+
+}
+
+.navbar
+{
+
+	background-color: #706C61;
+}
+
+
+
+.intro
+{
+	background-image: url(../image/ourservices.jpg);
+	height: 840px;
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	
+}
+.background_draftplan
+{
+
+	width: 100%;
+	background-image: url(../image/design.jpg);
+	min-height: 80%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.construction
+{
+
+	width: 100%;
+	background-image: url(../image/background_construction_site1.jpg);
+	min-height: 70%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.land-development
+{
+	width: 100%;
+	background-image: url(../image/land-development.jpg);
+	min-height: 110%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.page-body
+{
+	
+	background-image: url(../image/aboutus_background.jpg);
+	width: 100%;
+	min-height: 100%;
+
+	background-size: cover;
+}
+
+
+
+
+.content1
+{
+	overflow: auto;
+	padding: 100px 80px;
+	background-color: rgb(43,43,43);
+}
+
+.fas,.fab
+{
+	padding: 20px;
+	border-radius: 50%;
+	background-color: lightgreen;
+	opacity: .7;
+	color: rgb(43,43,43);
+}
+
+h4
+{
+	padding-top: 10px;
+	width: 100%;
+}
+
+.heading
+{
+	position: absolute;
+	color: #fff;
+	font-size: 500%;
+	top: 38%;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 0 5px 5px #000;
+	text-align: center;
+	/*color: green;*/
+}
+
+
+#markx
+{
+	padding: 0px;
+	border-radius: 0%;
+	background-color: transparent;
+	opacity: 1;
+	
+}
+
+.card
+{
+	padding-bottom: 20px;
+}
+
+#cardsx
+{
+
+	
+	background-color: rgb(43,43,43);
+	padding:20px 0px;
+	margin-bottom: 40px;
+}
+
+#cardsxs
+{
+
+	
+	background-color: #6a6a6a;
+	padding:20px 0px;
+	margin-bottom: 40px;
+}
+
+h3
+{
+	padding-top: 20px
+}
+
+
+.bg-black
+{
+	background-color: #82735C;
+	padding:20px 0;
+
+}
+
+.image-wh
+{
+	padding: 0;
+	margin: 0;
+	border:	0;
+	box-sizing: inherit;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+
+/*
+::before
+{
+	content : "";
+	z-index: 1;
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	transform: rotate(45deg);
+	background-color: inherit;
+	margin-top: -15px;
+	margin-left: -15px;
+	top: 100%;
+	left: 50%;
+	border-left-width: 0;
+	border-top-width: 0;
+
+}
+*/
+#map
+{
+	width: 100%;
+	height:400px;
+	position: relative;
+	overflow: hidden;
+}
+
+/*responsive 768px*/
+@media (max-width: 767px)
+{
+	.heading
+	{
+		/*font-size: 250%;*/
+		font-size: 36px;
+	}
+	.intro
+	{
+		max-width: 100%;
+	}
+
+
+}
+
+
+
+.content2,.content3,.content4
+{
+	padding: 50px 40px;
+	overflow: auto;
+	background-color: rgb(43,43,43);
+
+}	
+
+
+.h-100px
+{
+	height: 100%;
+}
+
+
+
+
+/*portfolio page*/
+
+.portfolio_bg
+{
+	background-image: url(../image/portfolio_bg.jpg);
+	height: 840px;
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 840px;
+}
+
+.content1_portfolio
+{
+	overflow: auto;
+	padding: 100px 80px;
+	background-color: rgb(43,43,43);
+	
+}
+
+.font-me
+{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.text-colorb
+{
+	color: black;
+}
+
+@media only screen and (max-width: 600px) {
+ .heading > h1
+  {
+  	font-size: 1em;
+  }
+  .container-fluid > h1
+  {
+  	font-size: 3.5em;
+  }
+}
+
+
+.home_image
+{
+	background: url(../image/home_image.jpg);
+	height: 700px;
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	opacity: .8;
+	
+	
+}
+
+.contentaaa
+{
+	width: 100%;
+	background-image: url(../image/ourcareer.jpg);
+	min-height: 60%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+#icon
+{
+	width: 150px;
+	height: 150px;
+}
+
+.welcome
+{
+	overflow: auto;
+	padding: 100px 80px;
+	background-color: rgb(43,43,43);
+	
+}
+
+
+
+.heading-home
+{
+	position: absolute;
+	color: #fff;
+	font-size: 500%;
+	top: 38%;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 0 5px 5px #000;
+	text-align: center;
+	/*color: green;*/
+}
+
+.heading_secondc
+{
+	position: absolute;
+	color: #fff;
+	font-size: 500%;
+	top: 38%;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 0 5px 5px #000;
+	text-align: center;
+}
+
+.modified
+{
+	font-size: 8.5rem;
+	padding: 0;
+	margin: 0;
+}
+
+.modified2
+{
+	font-size: 2.8rem;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+
+
+.welcome_home
+{
+	overflow: auto;
+	padding: 60px 80px;
+	background-color: rgb(43,43,43);
+	
+}
+
+.content_client
+{
+	width: 100%;
+	background-image: url(../image/ourclient.jpg);
+	min-height: 60%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+footer
+{
+	background-color: 	#583c3c;
+}
+
+
+
+.content_third
+{
+	overflow: auto;
+	padding: 60px 80px;
+	background-color: rgb(70,70,70);
+
+}
+
+#card_size
+{
+	
+	height: 121.988px;
+
+}
+
+.formx
+{
+	-webkit-align-content: center;
+	align-content: center;
+	width: 100%;
+	text-align: center;
+	display: block;
+	content: center;
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	color: black;
+}

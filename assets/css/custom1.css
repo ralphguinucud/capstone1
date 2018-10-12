@@ -1,0 +1,56 @@
+
+.contactus_image
+{
+
+	background-image: url(../image/contactus1.jpg);
+	opacity: .9;
+
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.content_contactus
+{
+	overflow: auto;
+	padding: 100px 80px;
+	background-color:  #404040;
+}
+
+.content_contactus1
+{
+	overflow: auto;
+	padding: 50px 80px;
+	background-color: rgb(43,43,43);
+}
+
+iframe
+{
+	min-width: 100%;
+	min-height: 100%;
+}
+
+/*
+::before
+{
+	content : "";
+	z-index: 1;
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	transform: rotate(45deg);
+	background-color: inherit;
+	margin-top: -15px;
+	margin-left: -15px;
+	top: 100%;
+	left: 50%;
+	border-left-width: 0;
+	border-top-width: 0;
+
+}
+*/

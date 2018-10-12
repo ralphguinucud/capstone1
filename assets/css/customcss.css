@@ -1,0 +1,75 @@
+
+ body,html
+ {
+ 	height: 100%;
+ 	margin: 0;
+
+ }
+
+
+ .landing_page
+ {
+ 	background-image: url(../image/landing_page.jpg);
+
+ 	position: relative;
+ 	width: 100%;
+ 	min-height: 100%;
+ 	z-index:0;	
+ 
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position: center center;
+ 	
+ }
+
+ .container
+ {
+ 	/*	border-radius: 25%;*/
+ 	background-color: rgb(43,43,43);
+ 	padding: 20px;
+ 	margin: auto;
+ 	border-radius: 12px;
+ }
+
+#icon
+{
+	width: 150px;
+	height: 150px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ::before
+ {
+ 	content : "";
+ 	z-index: 1;
+ 	position: absolute;
+ 	height: 30px;
+ 	width: 30px;
+ 	transform: rotate(45deg);
+ 	background-color: inherit;
+ 	margin-top: -15px;
+ 	margin-left: -15px;
+ 	top: 100%;
+ 	left: 50%;
+ 	border-left-width: 0;
+ 	border-top-width: 0;
+
+ }
+ */
+
